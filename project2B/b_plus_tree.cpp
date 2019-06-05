@@ -524,6 +524,7 @@ void BPLUSTREE_TYPE::RemoveFromFile(const std::string &file_name,
 
 INDEX_TEMPLATE_ARGUMENTS
 int BPLUSTREE_TYPE::isBalanced(page_id_t pid) {
+  if (IsEmpty()) return true;
   auto node = reinterpret_cast<BPlusTreePage *>(buffer_pool_manager_->FetchPage(pid));
   if (node == nullptr) {
     throw Exception(EXCEPTION_TYPE_INDEX,"all page are pinned while isBalanced");
