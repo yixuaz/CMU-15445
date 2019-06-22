@@ -34,7 +34,7 @@ cmu_15445_2017_done.rar is the project solution(including 4 projects).
 - [x] Lab 3: [Concurrency Control](https://15445.courses.cs.cmu.edu/fall2017/project3/) Lack info when using 2018 project documentation, so change to 2017
  * [lab 3 study note](https://www.jianshu.com/p/087d23a17ce4)
 - [x] Lab 4: [Logging & Recovery](https://15445.courses.cs.cmu.edu/fall2017/project4/)  Lack info during using 2018 project documentation, so change to 2017
-  * [lab 4 study note](https://www.jianshu.com/p/88796027112b)
+ * [lab 4 study note](https://www.jianshu.com/p/88796027112b)
   
   ## For self-study, take care using it if u are a student
 >You must write all the code you hand in for 6.824, except for code that we give you as part of the assignment. You are not allowed to look at anyone else's solution, you are not allowed to look at code from previous years, and you are not allowed to look at other Raft implementations. 
