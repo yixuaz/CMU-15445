@@ -48,7 +48,10 @@ https://www.jianshu.com/nb/36265841
  * [lab 4 study note](https://www.jianshu.com/p/88796027112b)
   
   ## For self-study, take care using it if u are a student
->You must write all the code you hand in for 6.824, except for code that we give you as part of the assignment. You are not allowed to look at anyone else's solution, you are not allowed to look at code from previous years, and you are not allowed to look at other Raft implementations. 
+>Every student has to work individually on this assignment.
+Students are allowed to discuss high-level details about the project with others.
+Students are not allowed to copy the contents of a white-board after a group meeting with other students.
+Students are not allowed to copy the solutions from another colleague.
 
 ## Origin Readme
 ### Build
