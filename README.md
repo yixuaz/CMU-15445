@@ -5,9 +5,9 @@ https://15445.courses.cs.cmu.edu/fall2018/schedule.html
 Study blog for cmu 15 445
 https://www.jianshu.com/nb/36265841
 
-cmu_15445_2017.rar is the project origin source file.
+`cmu_15445_2017.rar` is the project origin source file.
  
-cmu_15445_2017_done.rar is the project solution(including 4 projects). 
+`cmu_15445_2017_done.rar` is the project solution(including 4 projects). make sure pass all the tests including (tuple.test,vtable.test...)
 
 
 ## Target
@@ -18,6 +18,17 @@ cmu_15445_2017_done.rar is the project solution(including 4 projects).
   * project 3 20 tests
   * project 4 9 tests
   And pass at least 1000 times for project 2&3&4
+  
+  * make check
+
+>16/16 Test #16: virtual_table_test ...............   Passed    0.72 sec
+
+>100% tests passed, 0 tests failed out of 16
+
+>Total Test time (real) =  38.21 sec
+
+>[100%] Built target check
+
 ### 2. Simple and Understandable
   * Concise code is always my aim.
 
@@ -57,6 +68,10 @@ make
 ### Testing
 ```
 cd build
+//make sure u setup libvtable.so
+vim /etc/ld.so.conf
+//add one line for /where/you/install/lib
+sudo ldconfig
 make check
 ```
 
